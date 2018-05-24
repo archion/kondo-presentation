@@ -1,0 +1,44 @@
+\documentclass{beamer}
+\usepackage{transparent}
+\usepackage[backend=bibtex,style=chem-acs,citestyle=authoryear]{biblatex}
+\usetheme[
+  inner/sectionpage=progressbar,
+  inner/subsectionpage=progressbar,
+  outer/progressbar=foot,
+  outer/numbering=fraction
+]{metropolis}
+\makeatletter
+\setlength{\metropolis@titleseparator@linewidth}{2pt}
+\setlength{\metropolis@progressonsectionpage@linewidth}{2pt}
+\setlength{\metropolis@progressinheadfoot@linewidth}{2pt}
+\setlength{\footnotesep}{0.cm}
+\setbeamerfont{footnote}{size=\fontsize{4}{8}\selectfont}
+\renewcommand\@makefnmark{}
+\makeatother
+
+
+\title{Large-N method and impurity entropy in pseudogap Bose Fermi Kondo model}
+\date{\today @Zhejiang University}
+\author{
+Zuodong Yu
+}
+\titlegraphic{\hfill\includegraphics[height=1.8cm]{pic/logo.png}}
+\bibliography{ref}
+\begin{document}
+\maketitle
+\begin{frame}[noframenumbering,plain]{Outline}
+  \setbeamertemplate{section in toc}[ball unnumbered]
+  \tableofcontents[hideallsubsections]
+\end{frame}
+\section{section 1}
+\begin{frame}{Model}
+    text balabala
+\end{frame}
+\section{section 2}
+\begin{frame}{title 2}
+\footfullcite{coleman2005}
+\end{frame}
+\begin{frame}[standout]
+	Thank You!
+\end{frame}
+\end{document}
